@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/* while*/
-
 main(){
     
     int n = 10;
@@ -12,7 +10,7 @@ main(){
       
       n = n - 1;
    }    
-    
+  
     return 0;
 
 }
