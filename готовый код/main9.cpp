@@ -12,11 +12,9 @@ int main(){
      n = n + 1;
      
      x = n * (n - 1) / 2 + 1;
-     
-     
+    
       cout << " " << x; 
      
-       
    }
     
     return 0;
