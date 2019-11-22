@@ -2,12 +2,10 @@
 using namespace std;
 #define RATE 0.1484
 
-
 /*Нахожденя температуры */
 
 int main() {
     
-  
    int t = 0;
    
   cout << "Input temperature: ";
@@ -19,7 +17,6 @@ int main() {
   else 
     cout << "Cold!";
     
-  
   return 0;
 }
 
