@@ -8,7 +8,6 @@ int main() {
     int a;
     cout << "a=";  cin >> a;
     
-    
     if(a % 2 == 0)
 
         cout <<"a is even ";
@@ -16,7 +15,6 @@ int main() {
        else
     
         cout <<"a is old ";
-    
     
     return 0;
 
