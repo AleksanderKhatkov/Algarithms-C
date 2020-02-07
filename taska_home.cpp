@@ -55,13 +55,16 @@ int MaxArray(int a[], int n) // макc элемент массива
 void SortArray(int a[], int n) // сортировка пузырьком
 {
 	int i, j, temp;
-	for (j = 0; j < n - 1; j++)
-		if (a[j] > a[j + 1]) {
-			temp = a[j];
-			a[j] = a[j + 1];
-			a[j + 1] = temp;
+	for (int i = 0; i < n - 1; i++) {
+		for (int j = 0; j < n - i - 1; j++) {
+			if (a[j] > a[j + 1]) {
+				temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
 		}
 	}
+}
 int LinearSearch(int a[], int n, int key) // линейный поиск
 {
 	int i = 0;
